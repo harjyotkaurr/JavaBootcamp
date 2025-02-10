@@ -1,0 +1,21 @@
+QUESTION 3: Explain the difference between method overloading and method overriding in Java.
+
+Method Overloading:
+Method overloading allows a class to have multiple methods with the same name but different parameter lists (different type, number). This enhances the readability of the code and provides flexibility to call the same method in different ways, depending on the input.
+It is compile time polymorphism and it occurs within the class.
+It may or may not require inheritance. In method overloading, methods must have same name and different signatures.
+Private and final methods can be overloaded.
+USE CASE- While building calculators we can create multiple add methods to handle different type of inputs.
+ADVANTAGE-  1)Improved Readability
+            2) Code Reusability
+            3) Increased Flexibility
+DISADVANTAGE- 1) Confusion with similar signatures: add(int, double) and add(double, int).
+
+Method Overriding:Method overriding is a feature that allows a subclass to provide a specific implementation of a method that is already defined in its superclass. The overridden method in the subclass must have the same name, return type, and parameters as the method in the parent class.
+IT is run time polymorphism and it is performed in two classes with some inheritance relationship.
+Method Overriding always requires inheritance and methods must have same name and same signature.
+Private and final methods can not be overridden.
+USE CASE: While building a system for sounds of animals. All animals make sound but it varies animal to animal.
+ADVANTAGE:  1) Achieves run time polymorphism
+            2) Supports abstraction
+DISADVANTAGE: 1) Tight coupling- Changes in parent class may require updates in all child classes.
