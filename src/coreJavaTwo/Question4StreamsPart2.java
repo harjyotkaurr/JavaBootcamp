@@ -11,7 +11,7 @@
 //          Get list of all unique firstNames of employees where their salary is less than 5000 and who live in delhi.
 //          Note: Full name is concatenation of first name, middle name and last name with single space in between.
 
-package work;
+package coreJavaTwo;
 
 import java.util.Arrays;
 import java.util.List;

@@ -2,7 +2,7 @@
 //
 //    -> Collect all  even numbers from a list using stream
 
-package work;
+package coreJavaTwo;
 
 
 import java.util.Arrays;

@@ -1,6 +1,6 @@
 //QUESTION 5: Implement multiple inheritance with default method inside interface.
 
-package work;
+package coreJavaTwo;
 
 
 interface Interface1

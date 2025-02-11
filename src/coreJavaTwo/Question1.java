@@ -7,7 +7,7 @@
 
 
 
-package work;
+package coreJavaTwo;
 
 @FunctionalInterface
 interface MyInter <T, U, R> {

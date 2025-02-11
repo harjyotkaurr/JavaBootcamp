@@ -1,6 +1,6 @@
 //QUESTION 3: Create a thread using lambda function
 
-package work;
+package coreJavaTwo;
 
 public class Question3Thread {
     public static void main(String[] args){
