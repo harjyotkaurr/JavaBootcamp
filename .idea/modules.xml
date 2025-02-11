@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+
       <module fileurl="file://$PROJECT_DIR$/BootcampJAVA.iml" filepath="$PROJECT_DIR$/BootcampJAVA.iml" />
+
+      <module fileurl="file://$PROJECT_DIR$/lambda-practice.iml" filepath="$PROJECT_DIR$/lambda-practice.iml" />
     </modules>
   </component>
 </project>
